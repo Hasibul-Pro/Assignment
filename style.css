@@ -1,0 +1,386 @@
+body, html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color:rgba(139, 135, 252, 0.1);
+    /* background-color: rgba(78, 71, 255, 0.01); */
+}
+
+.open-sans-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+}
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.banner-font{   
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.header{
+    background-image: url(Image/Hero-bg.png);
+    
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+.nav-title{
+    font-weight:bolder;
+    font-size: 34px;
+    color: #4E47FF;
+    padding: 50px 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{                   
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-contant{
+    max-width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+.btn-primary:hover{
+    background-color: orange;
+}
+
+
+.banner-greeting{
+    font-size: 65px;
+    font-weight: 600;
+  
+}
+/* banner er kaj shes */
+
+/* 2 no part er kaj suru */
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.second-banner{
+    display: flexbox;
+}
+.second-banner-title{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 60px 30px;
+    gap: 200px;
+    box-sizing: border-box;
+}
+.second-banner-text{
+    max-width: 500px;
+}
+
+.second-banner-text h2{
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.second-banner-text p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 23px;
+}
+.second-banner-image img{
+    width: 403px;
+    border-radius: 48px;
+    text-align: center;
+}
+
+/* second part er kaj shes */
+
+
+/* third part er kaj suru */
+
+.third-part{
+    margin-top: 116px;
+}
+.start-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 24px;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+.start-section h2{
+    font-size: 38px;
+    margin-bottom: 40px;  
+    color: rgba(37, 36, 50, 1);  
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.start-item{
+    flex: 1;
+}
+.number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+.label{
+    font-size: 20px;
+    font-weight:400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* third part er kaj shes */
+
+/* fourth part suru */
+
+h2{
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 50px;
+}
+.test-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.test-card{
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+    width: 315px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.06) ;
+    text-align: left;
+}
+.star{
+    margin-bottom: 24px;
+}
+.star img{
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+}
+.test-title{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #222;
+}
+.test-text{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 24px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+.reviewer-info{
+    font-size: 13px;
+    color: #757575;
+}
+.reviewer-info strong{
+    display: block;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+}
+/* fourth part complete */
+
+/* fifth part er kaj suru */
+.fifth-container{
+    padding: 40px;
+}
+.fifth-container-box{
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.01);
+    margin: 60px auto;
+}
+.fifth-container-box h1{
+    font-size: 50px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+.fifth-container-box p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.fifth-chobi img{
+    display: inline-block;
+    border-radius: 48px;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+/* fifth part shes  */
+
+
+/* form er kaj suru  */
+
+.contect-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.contact-container{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    max-width: 1000;
+    width: 100%;
+    align-items: flex-start;
+}
+.contact-text h1{
+    font-size: 97px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.2;
+}
+.contact-form{
+    flex: 1;
+    min-width: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.contact-form input, .contact-form textarea{
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.contact-form textarea{
+    resize: vertical;
+}
+.contact-form button{
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* form shes */
+
+.bg-section{
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
+    padding-bottom: 115px;
+    padding-top: 100px;
+    
+}
+.footer-section{
+    text-align: center;
+    /* padding: 80px 20px; */
+}
+.logo{
+    font-size: 100px;
+    color: #4f46e5;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+.description{
+    color: #888;
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
